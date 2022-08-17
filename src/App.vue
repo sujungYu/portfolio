@@ -4,30 +4,30 @@
       <navbar></navbar>
     </div>
     <div class="sub-container">
-      <div class="container">
+      <!-- <div class="container">
         <banner></banner>
-      </div>
+      </div> -->
       <div class="container">
         <introduce></introduce>
       </div>
-      <div class="container">
+      <!-- <div class="container">
         <skills></skills>
-      </div>
+      </div> -->
     </div>
   </div>
 </template>
 
 <script>
 import Navbar from './components/Navbar.vue';
-import Banner from './views/Banner.vue';
+// import Banner from './views/Banner.vue';
 import Introduce from './views/Introduce.vue';
-import Skills from './views/Skills.vue';
+// import Skills from './views/Skills.vue';
 export default {
   components: {
     Navbar,
-    Banner,
+    // Banner,
     Introduce,
-    Skills,
+    // Skills,
   },
 };
 </script>

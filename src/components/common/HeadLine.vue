@@ -12,7 +12,8 @@ export default {};
 
 <style scoped>
 .text {
-  /* position: relative; */
+  position: relative;
+  top: 10vh;
   text-align: center;
   width: 50vw;
   margin: 0 auto;
@@ -21,7 +22,7 @@ export default {};
 }
 h1 {
   width: 100%;
-  margin-bottom: 0;
+  margin: 0 auto;
   background-color: white;
   border: 3px solid black;
   border-radius: 15px;
