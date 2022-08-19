@@ -11,10 +11,10 @@ export default {};
 <style scoped>
 .content-container {
   /* position: relative; */
-  height: 100%;
+  height: 90%;
   width: 50vw;
   margin: 0 auto;
-  z-index: -1;
+  /* z-index: -2; */
   /* top: -4vh; */
   padding: 5vh 5vw;
   /* padding-bottom: 0; */

@@ -5,10 +5,10 @@
         <li>YOUSUJUNG</li>
       </ul>
       <ul class="category-container">
-        <li herf="#home">HOME</li>
-        <li herf="#about">ABOUT</li>
-        <li>SKILL</li>
-        <li>PROJECT</li>
+        <a href="#home"><li>HOME</li></a>
+        <a href="#about"><li>ABOUT</li></a>
+        <a href="#skill"><li>SKILL</li></a>
+        <a href="#project"><li>PROJECT</li></a>
       </ul>
     </nav>
   </div>

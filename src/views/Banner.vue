@@ -14,6 +14,7 @@ export default {
 
 <style scoped>
 .banner-container {
+  position: relative;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -24,7 +25,7 @@ export default {
 .down {
   position: absolute;
   text-align: center;
-  top: 90%;
+  top: 80vh;
   font-size: 4rem;
 }
 </style>

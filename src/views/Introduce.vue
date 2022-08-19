@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="introduce-container">
     <head-line>ABOUT ME</head-line>
     <div class="contentbox-container">
       <content-box>
@@ -19,9 +19,12 @@ export default {
 </script>
 
 <style scoped>
+.introduce-container {
+  height: 100%;
+}
 .contentbox-container {
   position: relative;
-  top: 6vh;
-  z-index: -2;
+  top: 5vh;
+  z-index: 0;
 }
 </style>

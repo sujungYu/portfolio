@@ -19,24 +19,26 @@
       </h4>
       <div class="button-container">
         <info-button>
-          <i slot="icon" class="fa-solid fa-phone"></i>
-          <!-- <h1 slot="text">sdfsd</h1> -->
+          <template slot="icon"> <i class="fa-solid fa-phone"></i> </template>
+          <template slot="text"> <h6>010-3654-2683</h6> </template>
+          <!-- <span slot="icon"><i class="fa-solid fa-phone"></i></span>
+          <span slot="text"> 010-3654-2683</span> -->
         </info-button>
         <info-button>
           <i slot="icon" class="fa-solid fa-envelope"></i>
-          <!-- <h1 slot="text">sdfsd</h1> -->
+          <span slot="text">su_moment@naver.com</span>
         </info-button>
         <info-button>
           <i slot="icon" class="fa-brands fa-github"></i>
-          <!-- <h1 slot="text">sdfsd</h1> -->
+          <span slot="text">Github</span>
         </info-button>
         <info-button>
           <i slot="icon" class="fa-solid fa-b"></i>
-          <!-- <h1 slot="text">sdfsd</h1> -->
+          <span slot="text">Blog</span>
         </info-button>
         <info-button>
           <i slot="icon" class="fa-solid fa-file"></i>
-          <!-- <h1 slot="text">sdfsd</h1> -->
+          <span slot="text">Resume</span>
         </info-button>
       </div>
     </div>
@@ -62,6 +64,12 @@ export default {
 }
 .text-container {
   width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.button-container {
+  display: flex;
+  justify-content: space-around;
 }
 h2,
 h3,
@@ -70,6 +78,7 @@ h5 {
 }
 h2 {
   font-size: 2.9rem;
+  margin-bottom: 0;
 }
 h3 {
   font-size: 2.6rem;
@@ -83,8 +92,5 @@ h5 {
 img {
   height: auto;
   width: 100%;
-}
-.button-container {
-  display: flex;
 }
 </style>

@@ -19,6 +19,7 @@ export default {};
   margin: 0 auto;
   font-size: 2rem;
   font-family: 'Signika Negative', sans-serif;
+  z-index: 2;
 }
 h1 {
   width: 100%;

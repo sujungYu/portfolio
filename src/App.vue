@@ -4,30 +4,35 @@
       <navbar></navbar>
     </div>
     <div class="sub-container">
-      <!-- <div class="container">
+      <div id="home" class="container">
         <banner></banner>
-      </div> -->
-      <div class="container">
+      </div>
+      <div id="about" class="container color2">
         <introduce></introduce>
       </div>
-      <!-- <div class="container">
+      <div id="skill" class="container color1">
         <skills></skills>
-      </div> -->
+      </div>
+      <div id="project" class="container color2">
+        <projects></projects>
+      </div>
     </div>
   </div>
 </template>
 
 <script>
 import Navbar from './components/Navbar.vue';
-// import Banner from './views/Banner.vue';
+import Banner from './views/Banner.vue';
 import Introduce from './views/Introduce.vue';
-// import Skills from './views/Skills.vue';
+import Projects from './views/Projects.vue';
+import Skills from './views/Skills.vue';
 export default {
   components: {
     Navbar,
-    // Banner,
+    Banner,
     Introduce,
-    // Skills,
+    Skills,
+    Projects,
   },
 };
 </script>
@@ -37,7 +42,7 @@ export default {
   width: 100vw;
 }
 .nav-container {
-  z-index: 1;
+  z-index: 3;
   position: fixed;
   width: 100vw;
   height: 6vh;
@@ -45,11 +50,19 @@ export default {
   left: 0;
 }
 .sub-container {
-  /* position: relative; */
+  position: relative;
   margin-top: 6vh;
 }
 .container {
   width: 100vw;
   height: 94vh;
+  /* margin-bottom: 10vh; */
+  /* background-color: rgb(255, 255, 222); */
+}
+.color1 {
+  background-color: rgb(244, 224, 109);
+}
+.color2 {
+  background-color: rgb(255, 255, 222);
 }
 </style>
