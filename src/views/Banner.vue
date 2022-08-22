@@ -1,7 +1,9 @@
 <template>
   <div class="banner-container">
     <banner-text></banner-text>
-    <i class="fa-solid fa-circle-chevron-down down"></i>
+    <a href="#about">
+      <i class="fa-solid fa-circle-chevron-down down"></i>
+    </a>
   </div>
 </template>
 
@@ -27,5 +29,8 @@ export default {
   text-align: center;
   top: 80vh;
   font-size: 4rem;
+}
+a {
+  color: black;
 }
 </style>

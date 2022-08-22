@@ -10,7 +10,7 @@ export default {};
 
 <style scoped>
 .content-container {
-  /* position: relative; */
+  position: relative;
   height: 90%;
   width: 50vw;
   margin: 0 auto;

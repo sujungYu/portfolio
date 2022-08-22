@@ -6,7 +6,10 @@
       <h5>Frontend Developer</h5>
     </div>
     <div class="text-container">
-      <h2>안녕하세요. <br />대화를 좋아하는 개발자 <br />유수정입니다.</h2>
+      <h2>
+        안녕하세요<i class="fa-regular fa-face-smile"></i> <br />대화를 좋아하는
+        개발자 <br />유수정입니다.
+      </h2>
       <h4>
         <p>
           프론트엔드 개발자는 여러 분야의 사람들과 함께 프로젝트를 진행하기
@@ -17,32 +20,10 @@
           저는 분야를 가리지 않고 개발에 대한 관심사를 넓혀나가고 있습니다.
         </p>
       </h4>
-      <div class="button-container">
-        <info-button>
-          <template slot="icon"> <i class="fa-solid fa-phone"></i> </template>
-          <template slot="text"> <h6>010-3654-2683</h6> </template>
-          <!-- <span slot="icon"><i class="fa-solid fa-phone"></i></span>
-          <span slot="text"> 010-3654-2683</span> -->
-        </info-button>
-        <info-button>
-          <i slot="icon" class="fa-solid fa-envelope"></i>
-          <span slot="text">su_moment@naver.com</span>
-        </info-button>
-        <info-button>
-          <i slot="icon" class="fa-brands fa-github"></i>
-          <span slot="text">Github</span>
-        </info-button>
-        <info-button>
-          <i slot="icon" class="fa-solid fa-b"></i>
-          <span slot="text">Blog</span>
-        </info-button>
-        <info-button>
-          <i slot="icon" class="fa-solid fa-file"></i>
-          <span slot="text">Resume</span>
-        </info-button>
-      </div>
+      <info-button></info-button>
     </div>
   </div>
+  <!-- </div> -->
 </template>
 
 <script>
@@ -67,10 +48,10 @@ export default {
   display: flex;
   flex-direction: column;
 }
-.button-container {
+/* .button-container {
   display: flex;
-  justify-content: space-around;
-}
+  justify-content: space-between;
+} */
 h2,
 h3,
 h5 {

@@ -43,4 +43,8 @@ li {
   text-decoration: underline 1.2px;
   color: rgb(255, 115, 150);
 }
+a {
+  text-decoration: none;
+  color: black;
+}
 </style>
