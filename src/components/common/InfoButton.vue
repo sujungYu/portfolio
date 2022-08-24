@@ -69,7 +69,7 @@ li {
   font-size: 1.8rem;
   width: 5rem;
   height: 5rem;
-  border: 2px solid black;
+  border: 2px solid #333333;
   border-radius: 50px;
   display: flex;
   justify-content: center;
@@ -118,6 +118,18 @@ li {
 .github:hover .text,
 .github:hover .text::before {
   background: #333333;
+  color: #ffffff;
+}
+.mail:hover,
+.mail:hover .text,
+.mail:hover .text::before {
+  background: #2db400;
+  color: #ffffff;
+}
+.phone:hover,
+.phone:hover .text,
+.phone:hover .text::before {
+  background: red;
   color: #ffffff;
 }
 </style>

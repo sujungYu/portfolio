@@ -1,13 +1,13 @@
 <template>
   <div class="a">
     <content-box>
-      <project-num>개인 프로젝트</project-num>
+      <project-num>팀 프로젝트(2명)</project-num>
       <used-tech>vue</used-tech>
-      <used-tech>node.js</used-tech>
-      <used-tech>d3.js</used-tech>
-      <used-tech>moment.js</used-tech>
-      <used-tech>vue-chartjs</used-tech>
+      <used-tech>vuex</used-tech>
       <used-tech>vue-router</used-tech>
+      <!-- <used-tech>moment.js</used-tech>
+      <used-tech>vue-chartjs</used-tech>
+      <used-tech>vue-router</used-tech> -->
       <span>2021.04.01~2021.04.05</span>
       <div class="box">
         <!-- 모달창으로 변경 -->
@@ -20,40 +20,37 @@
           </div>
         </div> -->
         <div class="text-container">
-          <h2>코로나19 웹사이트</h2>
+          <h2>offco 웹앱</h2>
           <h3>
             <ul>
               <li>
-                <i class="fa-solid fa-check"></i> 코로나19 관련 정보를 제공하기
-                위해 개발
+                <i class="fa-solid fa-check"></i> 기존 sns의 단점을 보완한
+                단체모임 sns을 제공하기 위해 개발
               </li>
               <li>
-                <i class="fa-solid fa-check"></i>공공 데이터에서 제공하는 open
-                api를 활용
+                <i class="fa-solid fa-check"></i>백엔드 1명, 프론트엔드 1명이서
+                진행한 프로젝트로 디자인과 프론드엔드를 담당
+              </li>
+              <li><i class="fa-solid fa-check"></i>figma로 스토리보드 작성</li>
+              <li>
+                <i class="fa-solid fa-check"></i>vuex를 활용해 컴포넌트 간에
+                통신이나 데이터를 효율적으로 전달하도록 구현
+              </li>
+              <li><i class="fa-solid fa-check"></i>__을 활용해 캘린더 구현</li>
+              <li>
+                <i class="fa-solid fa-check"></i> localStorage를 이용해 로그인
+                유지 기능 구현
               </li>
               <li>
-                <i class="fa-solid fa-check"></i>
-                moment를 이용해 날짜 변동에 따른 데이터 자동 업로드가 가능하도록
-                구현
+                <i class="fa-solid fa-check"></i> Math.random()함수로 난수를
+                생성하여 초대 링크 구현
               </li>
               <li>
-                <i class="fa-solid fa-check"></i>우리나라 topojoson 데이터를
-                활용
+                <i class="fa-solid fa-check"></i> 기능 별로 store을 모듈화하여
+                분리해서 관리
               </li>
               <li>
-                <i class="fa-solid fa-check"></i> d3를 활용해 데이터 시각화
-              </li>
-              <li>
-                <i class="fa-solid fa-check"></i> vue-router을 이용해 시, 도별
-                코로나 확진자 및 백신 접종자 확인 가능
-              </li>
-              <li>
-                <i class="fa-solid fa-check"></i> vue-chartjs을 이용해 최근
-                7일내 확진자를 한 눈에 볼 수 있도록 구현
-              </li>
-              <li>
-                <i class="fa-solid fa-check"></i>xml-js를 이용해 xml 데이터를
-                json으로 파싱
+                <i class="fa-solid fa-check"></i>vue-router을 활용하여 SPA 구현
               </li>
               <!-- <li><i class="fa-solid fa-check"></i>open api, momnet 사용</li> -->
             </ul>
@@ -63,6 +60,7 @@
           <i class="fa-solid fa-camera"></i>
         </div>
       </div>
+      <h4>최근 업데이트일 2021.1.1</h4>
     </content-box>
   </div>
 </template>

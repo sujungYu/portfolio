@@ -1,13 +1,16 @@
 <template>
   <div class="a">
     <content-box>
-      <project-num>개인 프로젝트</project-num>
+      <project-num>팀 프로젝트(2명)</project-num>
       <used-tech>vue</used-tech>
-      <used-tech>node.js</used-tech>
-      <used-tech>d3.js</used-tech>
-      <used-tech>moment.js</used-tech>
-      <used-tech>vue-chartjs</used-tech>
+      <used-tech>vuex</used-tech>
       <used-tech>vue-router</used-tech>
+      <used-tech>eslint</used-tech>
+      <used-tech>prettier</used-tech>
+      <used-tech>vue-router</used-tech>
+      <used-tech>vue2-datepicker</used-tech>
+      <used-tech>sockjs-client</used-tech>
+      <used-tech>webstomp-client</used-tech>
       <span>2021.04.01~2021.04.05</span>
       <div class="box">
         <!-- 모달창으로 변경 -->
@@ -20,41 +23,50 @@
           </div>
         </div> -->
         <div class="text-container">
-          <h2>코로나19 웹사이트</h2>
+          <h2>3355 웹앱</h2>
           <h3>
             <ul>
               <li>
-                <i class="fa-solid fa-check"></i> 코로나19 관련 정보를 제공하기
-                위해 개발
+                <i class="fa-solid fa-check"></i> 지역별 스터디를 제공하기 위해
+                개발
               </li>
               <li>
-                <i class="fa-solid fa-check"></i>공공 데이터에서 제공하는 open
-                api를 활용
+                <i class="fa-solid fa-check"></i>백엔드 1명, 프론트엔드 1명이서
+                진행한 프로젝트로 디자인과 프론드엔드를 담당
+              </li>
+              <li><i class="fa-solid fa-check"></i>figma로 스토리보드 작성</li>
+              <li>
+                <i class="fa-solid fa-check"></i>vuex를 활용해 컴포넌트 간에
+                통신이나 데이터를 효율적으로 전달하도록 구현
               </li>
               <li>
-                <i class="fa-solid fa-check"></i>
-                moment를 이용해 날짜 변동에 따른 데이터 자동 업로드가 가능하도록
-                구현
+                <i class="fa-solid fa-check"></i> sockjs-client와
+                webstomp-client를 활용해 채팅 구현
               </li>
               <li>
-                <i class="fa-solid fa-check"></i>우리나라 topojoson 데이터를
-                활용
+                <i class="fa-solid fa-check"></i>ESLint를 활용해 코드를 일관성
+                있게 작성
               </li>
               <li>
-                <i class="fa-solid fa-check"></i> d3를 활용해 데이터 시각화
+                <i class="fa-solid fa-check"></i> Prettier을 활용해 코드스타일을
+                일관되게 유지
               </li>
               <li>
-                <i class="fa-solid fa-check"></i> vue-router을 이용해 시, 도별
-                코로나 확진자 및 백신 접종자 확인 가능
+                <i class="fa-solid fa-check"></i>vue-router을 활용하여 SPA 구현
               </li>
               <li>
-                <i class="fa-solid fa-check"></i> vue-chartjs을 이용해 최근
-                7일내 확진자를 한 눈에 볼 수 있도록 구현
+                <i class="fa-solid fa-check"></i>vue2-datepicker를 활용해 스터디
+                기간 구현
               </li>
               <li>
-                <i class="fa-solid fa-check"></i>xml-js를 이용해 xml 데이터를
-                json으로 파싱
+                <i class="fa-solid fa-check"></i> 요청, 응답만 받는 api를
+                분리하여 작성
               </li>
+              <li>
+                <i class="fa-solid fa-check"></i> 코드 스플리팅을 활용해 페이지
+                로딩 속도를 개선
+              </li>
+              <li><i class="fa-solid fa-check"></i>views___</li>
               <!-- <li><i class="fa-solid fa-check"></i>open api, momnet 사용</li> -->
             </ul>
           </h3>

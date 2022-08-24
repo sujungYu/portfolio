@@ -3,11 +3,11 @@
     <content-box>
       <project-num>개인 프로젝트</project-num>
       <used-tech>vue</used-tech>
-      <used-tech>node.js</used-tech>
-      <used-tech>d3.js</used-tech>
-      <used-tech>moment.js</used-tech>
-      <used-tech>vue-chartjs</used-tech>
+      <used-tech>vuex</used-tech>
       <used-tech>vue-router</used-tech>
+      <!-- <used-tech>moment.js</used-tech>
+      <used-tech>vue-chartjs</used-tech>
+      <used-tech>vue-router</used-tech> -->
       <span>2021.04.01~2021.04.05</span>
       <div class="box">
         <!-- 모달창으로 변경 -->
@@ -20,42 +20,38 @@
           </div>
         </div> -->
         <div class="text-container">
-          <h2>코로나19 웹사이트</h2>
+          <h2>news 웹</h2>
           <h3>
             <ul>
               <li>
-                <i class="fa-solid fa-check"></i> 코로나19 관련 정보를 제공하기
-                위해 개발
+                <i class="fa-solid fa-check"></i> 요청, 응답만 받는 api를
+                분리하여 작성
               </li>
               <li>
-                <i class="fa-solid fa-check"></i>공공 데이터에서 제공하는 open
-                api를 활용
+                <i class="fa-solid fa-check"></i> Async&Await를 활용해 비동기
+                처리 문제 해결
               </li>
               <li>
-                <i class="fa-solid fa-check"></i>
-                moment를 이용해 날짜 변동에 따른 데이터 자동 업로드가 가능하도록
+                <i class="fa-solid fa-check"></i> 이벤드 버스를 활용해 스피너
                 구현
               </li>
               <li>
-                <i class="fa-solid fa-check"></i>우리나라 topojoson 데이터를
-                활용
+                <i class="fa-solid fa-check"></i> Mixin을 활용해 컴포넌트 간에
+                공통으로 사용하고 있는 로직을 재사용
               </li>
               <li>
-                <i class="fa-solid fa-check"></i> d3를 활용해 데이터 시각화
+                <i class="fa-solid fa-check"></i> 네비게이션 가드를 활용해 특정
+                페이지에 접근 제한
+              </li>
+              <li><i class="fa-solid fa-check"></i> vuex 모듈화</li>
+              <li>
+                <i class="fa-solid fa-check"></i> 라우터 트랜지션을 활용해
+                템플릿에 효과 부여
               </li>
               <li>
-                <i class="fa-solid fa-check"></i> vue-router을 이용해 시, 도별
-                코로나 확진자 및 백신 접종자 확인 가능
+                <i class="fa-solid fa-check"></i> vuex 헬퍼 함수를 활용해 코드
+                간단화
               </li>
-              <li>
-                <i class="fa-solid fa-check"></i> vue-chartjs을 이용해 최근
-                7일내 확진자를 한 눈에 볼 수 있도록 구현
-              </li>
-              <li>
-                <i class="fa-solid fa-check"></i>xml-js를 이용해 xml 데이터를
-                json으로 파싱
-              </li>
-              <!-- <li><i class="fa-solid fa-check"></i>open api, momnet 사용</li> -->
             </ul>
           </h3>
           <i class="fa-brands fa-github"></i>

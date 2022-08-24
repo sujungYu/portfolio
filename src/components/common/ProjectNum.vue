@@ -12,7 +12,8 @@ export default {};
 .num-container {
   position: absolute;
   top: -3vh;
-  left: 6vw;
+  left: -2vw;
+  /* left: -1.5vw; */
   /* left: -7vw;
   top: -5vh; */
   /* left: -4vw;
